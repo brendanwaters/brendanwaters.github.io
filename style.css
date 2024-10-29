@@ -38,3 +38,6 @@ body {
     color: #555;
 }
 
+body {
+    background: linear-gradient(to bottom right, #a8edea, #fed6e3); /* Change colors as desired */
+}
