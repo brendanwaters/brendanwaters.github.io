@@ -1,1 +1,40 @@
+/* Reset basic margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style the Introduction Section */
+#introduction {
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#introduction h1 {
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+#introduction p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #555;
+}
 
